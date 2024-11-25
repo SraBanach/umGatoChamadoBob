@@ -1,0 +1,95 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{ 
+    background-image: url(../img/umGatoDeRuaChamadoBob2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-conteiner{
+    background-color: rgb(255, 255, 255, 0.5);
+    /* opacity: 0.6; */
+    border-radius:27px;
+    width: 440px;
+    height: 570px;
+    text-align: center;
+    margin-top: 100px;
+}    
+
+.social{
+    text-decoration: none;
+    list-style: none;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px;
+    /* margin top espaço entre os dois input */
+    margin-top: 10px; 
+    background-color: #E6E6E6;
+}
+
+h1, h2{
+    display: flex;
+    margin: 20px;
+}
+
+h2{
+    color: #545454;
+    font-size: 14px;
+    font-family: "IBM Plex Serif", serif;
+    line-height: 19.36px;
+}
+
+
+.botaoLogin{ 
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: #0366FF;
+    color: #E6E6E6;
+    margin-top: 70px;
+}
+
+.social li{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 20%;
+    margin:0px 5px ;
+    
+}
+
+.social{
+    padding: 0%;
+
+}
+
+.social img{
+    width: 30px;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #E6E6E6;
+    width: 280px;
+}
